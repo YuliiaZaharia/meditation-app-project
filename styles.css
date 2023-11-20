@@ -20,3 +20,14 @@
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
+#btn:hover {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    }
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
