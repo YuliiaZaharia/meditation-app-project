@@ -9,6 +9,10 @@ h1 {
     font-size: 40px; 
 }
 
+#heading:hover {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
 #btn-container {
     display: flex;
     justify-content: space-around;
@@ -34,4 +38,13 @@ a {
     font-size: 25px;
     color: black;
     font-weight: bolder;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
 }
