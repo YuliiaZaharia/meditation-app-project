@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     background-color: azure;
+}
+
+h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px; 
+    font-size: 40px; 
 }
 
 #btn-container {
@@ -30,4 +33,5 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: black;
+    font-weight: bolder;
 }
