@@ -21,7 +21,18 @@
 }
 
 #myButton {
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+    #myButton {
+    display: block;
     border-radius: 20px;
     padding: 10px;
     background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    }
+
+    body {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+    }
 }
