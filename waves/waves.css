@@ -19,3 +19,9 @@
     min-height: 100%;
     z-index: -10;
 }
+
+#myButton {
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}

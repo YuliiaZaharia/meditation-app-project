@@ -1,6 +1,12 @@
+const button = document.querySelector("#myButton");
+
+button.addEventListener("click", function() {
+document.querySelector("#player").play; 
+document.querySelector("#myVideo").play; 
+})
+
 // minutes 
 const timer = 5; 
-
 //seconds
 let amountTime = timer * 60;
 
