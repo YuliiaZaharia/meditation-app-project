@@ -12,6 +12,14 @@ function calculateTime () {
     countdown.textContent = `${minutes} : ${seconds}`;
     amountTime--;
 
+    if (amountTime < 0); 
+    stopTimer();
+    amountTime = 0; 
+
+    function stopTimer () {
+    clearInterval(timeId); 
+    }
+
 }
 
-setInterval(calculateTime, 1000); 
+let timeId = setInterval(calculateTime, 1000); 
